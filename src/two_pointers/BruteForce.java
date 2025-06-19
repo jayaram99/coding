@@ -9,7 +9,7 @@ import java.util.Scanner;
    Ex: [1,2,4,5] sum = 8, result: No
        [1,2,4,4,5] sum = 8, result: yes (4+4)
  */
-public class Brute {
+public class BruteForce {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         Scanner obj = new Scanner(System.in);
