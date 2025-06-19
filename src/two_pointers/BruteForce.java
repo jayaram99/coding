@@ -8,6 +8,7 @@ import java.util.Scanner;
    Here we are trying to find a pair of numbers matching to a given sum
    Ex: [1,2,4,5] sum = 8, result: No
        [1,2,4,4,5] sum = 8, result: yes (4+4)
+   The current approach takes quadratic time with two loops
  */
 public class BruteForce {
     public static void main(String[] args) {
