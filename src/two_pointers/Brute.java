@@ -18,7 +18,6 @@ public class Brute {
         System.out.println("Enter number of elements");
         int n = obj.nextInt();
         System.out.println("enter " + n + " numbers");
-        
         for(int i = 0; i<n; i++){
             list.add(obj.nextInt());
         }
